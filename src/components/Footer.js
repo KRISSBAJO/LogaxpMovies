@@ -26,9 +26,9 @@ export default function Footer() {
               </h2>
               <ul className="text-gray-500 dark:text-gray-400 font-medium">
                 <li className="mb-4">
-                  <a to="#" target="_blank" className="hover:underline">
+                  <Link to="#" target="_blank" className="hover:underline">
                     News
-                  </a>
+                  </Link>
                 </li>
                 <li>
                   <Link to="/booking" target="_blank" className="hover:underline">
@@ -60,9 +60,9 @@ export default function Footer() {
               </h2>
               <ul className="text-gray-500 dark:text-gray-400 font-medium">
                 <li className="mb-4">
-                  <a to="#" target="_blank" className="hover:underline">
+                  <Link to="#" target="_blank" className="hover:underline">
                     Privacy Policy
-                  </a>
+                  </Link>
                 </li>
                 <li>
                   <Link to="/terms-conditions" target="_blank" className="hover:underline">
@@ -83,8 +83,8 @@ export default function Footer() {
             . All Rights Reserved.
           </span>
           <div className="flex mt-4 space-x-5 sm:justify-center sm:mt-0">
-            <a
-              to="https://www.facebook.com/friends"
+            <a 
+              href="https://www.facebook.com/friends"
               target="_blank"
               className="text-gray-500 hover:text-white dark:hover:text-white"
             >
@@ -104,7 +104,7 @@ export default function Footer() {
               <span className="sr-only">Facebook page</span>
             </a>
             <a
-              to="https://discord.com/channels/@me/1098021299084861451"
+              href="https://discord.com/channels/@me/1098021299084861451"
               target="_blank"
               className="text-gray-500 hover:text-white dark:hover:text-white"
             >
@@ -120,7 +120,7 @@ export default function Footer() {
               <span className="sr-only">Discord community</span>
             </a>
             <a
-              to="https://twitter.com/home"
+              href="https://twitter.com/home"
               target="_blank"
               className="text-gray-500 hover:text-white dark:hover:text-white"
             >
@@ -140,7 +140,7 @@ export default function Footer() {
               <span className="sr-only">Twitter page</span>
             </a>
             <a
-              to="https://github.com/KRISSBAJO/Profile_CV"
+              href="https://github.com/KRISSBAJO/Profile_CV"
               target="_blank"
               className="text-gray-500 hover:text-white dark:hover:text-white"
             >
@@ -160,7 +160,7 @@ export default function Footer() {
               <span className="sr-only">GitHub account</span>
             </a>
             <a
-              to="#"
+              href="#"
               target="_blank"
               className="text-gray-500 hover:text-white dark:hover:text-white"
             >
