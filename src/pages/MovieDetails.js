@@ -22,7 +22,7 @@ export default function MovieDetails() {
     fetchMovies();
   }, [params.id]);
 
-  const pageTitle = useTitle(movie.title);
+  useTitle(movie.title);
 
   if (!movie) {
     return <p>Loading...</p>;
