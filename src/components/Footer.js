@@ -86,6 +86,7 @@ export default function Footer() {
             <a 
               href="https://www.facebook.com/friends"
               target="_blank"
+              rel="noreferrer"
               className="text-gray-500 hover:text-white dark:hover:text-white"
             >
               <svg
@@ -106,6 +107,7 @@ export default function Footer() {
             <a
               href="https://discord.com/channels/@me/1098021299084861451"
               target="_blank"
+              rel="noreferrer"
               className="text-gray-500 hover:text-white dark:hover:text-white"
             >
               <svg
@@ -122,6 +124,7 @@ export default function Footer() {
             <a
               href="https://twitter.com/home"
               target="_blank"
+              rel="noreferrer"
               className="text-gray-500 hover:text-white dark:hover:text-white"
             >
               <svg
@@ -142,6 +145,7 @@ export default function Footer() {
             <a
               href="https://github.com/KRISSBAJO/Profile_CV"
               target="_blank"
+              rel="noreferrer"
               className="text-gray-500 hover:text-white dark:hover:text-white"
             >
               <svg
@@ -160,8 +164,9 @@ export default function Footer() {
               <span className="sr-only">GitHub account</span>
             </a>
             <a
-              href="#"
+              href="www.google.com"
               target="_blank"
+              rel="noreferrer"
               className="text-gray-500 hover:text-white dark:hover:text-white"
             >
               <svg
